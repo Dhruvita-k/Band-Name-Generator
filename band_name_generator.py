@@ -1,7 +1,7 @@
 import random
 
-adjectives = ["Cosmic", "Electric", "Neon", "Thundering", "Mystic"]
-nouns = ["Pandas", "Rhythms", "Waves", "Dragons", "Shadows"]
+adjectives = ["Cosmic", "Electric", "Neon", "Thundering", "Mystic","Silent"]
+nouns = ["Pandas", "Rhythms", "Waves", "Dragons", "Shadows","Silent"]
 
 def generate_band_name():
     return f"{random.choice(adjectives)} {random.choice(nouns)}"
